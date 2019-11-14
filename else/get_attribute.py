@@ -10,7 +10,7 @@ class Tree(object):
         print("哈哈")
         return object.__getattribute__(self, obj)
 
-    
+
 aa = Tree("大树")
 print(aa.name)
 
