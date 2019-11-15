@@ -2,8 +2,8 @@
 
 # @classmethod也不需要self参数，但第一个参数需要是表示自身类的cls参数
 # 不管这个方式是从实例调用还是从类调用，它都用第一个参数把类传递过来
-#classmethod
-#需要使用静态变量，且不需要跟对象相关
+# classmethod
+# 需要使用静态变量，且不需要跟对象相关
 class Goods:
     __discount = 0.8
 
