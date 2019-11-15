@@ -10,7 +10,7 @@ def fib(n):
 
 if __name__ == '__main__':
     start_time = time.time()
-    fib_sequence = [fib(x) for x in range(1, 30)]
+    fib_sequence = [fib(x) for x in range(1, 40)]
     print(fib_sequence)
     end_time = time.time()
 
